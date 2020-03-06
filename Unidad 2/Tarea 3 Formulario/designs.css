@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+.fondo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://wallpapershome.com/images/pages/ico_h/21456.jpg');
+    background-size: 100vw 100vh;
+    filter: blur(5px)
+}
+
 .form {
     text-align: center;
     position: absolute;
@@ -17,9 +28,14 @@
     border: solid rgb(211, 211, 211,.5) 1px;
 }
 
-.label {
+.form label {
     display: block;
     margin-bottom: 10px;
+}
+
+.userIMG{
+    width: 40px;
+    height: 30px;
 }
 
 .textbox {

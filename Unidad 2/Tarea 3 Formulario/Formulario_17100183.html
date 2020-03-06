@@ -8,16 +8,17 @@
     <title>Formulario</title>
 </head>
 
-<body style="background-image: url('bg-01.jpg');">
+<body>
+    <div class="fondo"></div>
     <!-- <div style="float: left;">  </div> -->
      
     <form class="form">
-        <span class="label"> Ingresa los datos del usuario:</span>
-        <span class="label">Nombre: </span>
+        <label class="label"> <img class="userIMG" src="https://image.flaticon.com/icons/svg/1077/1077063.svg"> DATOS DE USUARIO</label>
+        <label class="label">Nombre: </label>
         <input id="txtNombre" type="text" class="textbox" placeholder="Nombre">
-        <span class="label">Apellido Paterno: </span>
+        <label class="label">Apellido Paterno: </label>
         <input id="txtApellido" type="text" class="textbox" placeholder="Apellido P">
-        <span class="label">Apellido Materno: </span>
+        <label class="label">Apellido Materno: </label>
         <input id="txtApellido" type="text" class="textbox" placeholder="Apellido M">
         <input type="button" value="Agregar" class="button">
     </form>
