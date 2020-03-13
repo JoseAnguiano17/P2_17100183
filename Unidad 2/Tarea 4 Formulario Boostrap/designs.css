@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    background: url("https://epicwallpapers.site/wp-content/uploads/2019/03/Arseniy-Chebynkin-Music-Room-Piano-Illustration-Art-Blue-4k-HD-Wallpaper-.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.input{
+    text-align: center;
+    padding: 10px 60px;
+}
+
+
+.nav-item{
+    height: 100%;
+}
+
+.formulario{
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: calc(50vw - (60vw /2));
+    top: calc(15vh);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: rgba(50, 56, 56, 0.7);
+    padding: 40px 0px;
+    height: 80vh fit-content;
+    width: 60vw;
+    border: solid rgb(211, 211, 211,.5) 1px;
+}
+
+#nav-bottom{
+    background-color: darkslategray;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
